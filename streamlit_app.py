@@ -322,9 +322,12 @@ st.dataframe(style_big_players(big_players_df), use_container_width=True)
 st.markdown("## HISTORY January 3, 2025")
 
 history = [
-    ">>> SigeForex Bot Update = Citigroup Inc. (Citi) hit target its GBP/USD short from 1.26619 circa 1.12000 at a profit of +498 pips. Details",
-    ">>> SigeForex Bot Update = Citigroup Inc. (Citi) hit target its GBP/USD short from 1.27712 circa 1.12000 at a profit of +602 pips. Details",
-    ">>> SigeForex Bot Update = JPMorgan Chase & Co. hit target its GBP/USD short from 1.27233 circa 1.1000 at a profit of +3076 pips. Details",
+    ">>> SigeForex Bot Update = Morgan Stanley hit target its NZD/USD short from 0.63385 circa 1.2000 at a profit of +757 pips. Details",
+    "----------------------------------------------------------------------------------------------------------------------------------",
+    ">>> SigeForex Bot Update = Morgan Stanley hit target its NZD/USD short from 0.59133 circa 1.2000 at a profit of +305 pips. Details",
+    "----------------------------------------------------------------------------------------------------------------------------------",
+    ">>> SigeForex Bot Update = Credit Suiesse hit target its NZD/USD short from 0.60223 circa 1.4000 at a profit of +412 pips. Details",
+    "----------------------------------------------------------------------------------------------------------------------------------",
     ">>> SigeForex Bot Update = JPMorgan Chase & Co. hit target its GBP/JPY long from 194.198 circa 1.1000 at a profit of +3126 pips. Details",
     ">>> SigeForex Bot Update = Bank of America Merrill Lynch (BofA) hit target its GBP/JPY long from 195.850 circa 1.1000 at a profit of +2126 pips. Details",
     ">>> SigeForex Bot Update = Bank of America Merrill Lynch (BofA) hit target its GBP/JPY long from 195.850 circa 1.1000 at a profit of +2126 pips. Details",
