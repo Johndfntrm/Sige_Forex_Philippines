@@ -319,7 +319,7 @@ big_players_df = pd.DataFrame(big_players_data)
 st.dataframe(style_big_players(big_players_df), use_container_width=True)
 
 # HISTORY Section
-st.markdown("## HISTORY January 3, 2025")
+st.markdown("## HISTORY January 7, 2025")
 
 history = [
     ">>> SigeForex Bot Update = Morgan Stanley hit target its NZD/USD short from 0.63385 circa 1.2000 at a profit of +757 pips. Details",
@@ -338,8 +338,8 @@ history = [
 styled_history = ""
 for update in history:
     # Apply color coding for specific words and numbers
-    update = update.replace("Citigroup Inc. (Citi)", "<span style='background-color: orange;'>Citigroup Inc. (Citi)</span>")
-    update = update.replace("JPMorgan Chase & Co.", "<span style='background-color: orange;'>JPMorgan Chase & Co.</span>")
+    update = update.replace("Morgan Stanley", "<span style='background-color: orange;'>Morgan Stanley</span>")
+    update = update.replace("Credit Suiesse", "<span style='background-color: orange;'>Credit Suiesse</span>")
     update = update.replace("Bank of America Merrill Lynch (BofA)", "<span style='background-color: orange;'>Bank of America Merrill Lynch (BofA)</span>")
     update = update.replace("Credit Suisse", "<span style='background-color: orange;'>Credit Suisse</span>")
     update = update.replace("+", "<span style='background-color: green;'>+</span>")  # Green background for + pips
